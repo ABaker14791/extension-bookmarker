@@ -7,5 +7,8 @@ const init = function () {
   injectElement.textContent = "Save to Extension";
   buttonContainer.appendChild(injectElement);
 };
-
 const delayLoad = setTimeout(init, 200);
+
+function addToBookmarks() {
+  console.log("Hello");
+}
